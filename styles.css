@@ -1,0 +1,49 @@
+            .container {
+                text-align: center;
+            }
+
+            .titre {
+                color: #154415;
+                font-size: 58px;
+            }
+
+            #drawing-board {
+                border: 1px solid #ccc;
+                background-color: #fff;
+                cursor: crosshair;
+            }
+
+            #color-options {
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .color-option {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #ccc;
+                margin-right: 5px;
+                cursor: pointer;
+                border-radius: 15px;
+            }
+
+            #clear-btn {
+                margin-top: 10px;
+                background-color: #154415;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 30px;
+            }
+
+            .selected {
+                border: 1px solid #000;
+            }
+
+            #clear-btn {
+                margin-top: 10px;
+            }
